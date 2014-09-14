@@ -20,7 +20,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
     }
   });
 })
-.controller('MainCtrl', function($scope) {
+.controller('MainCtrl', function($scope, $cordovaFile) {
 
   $scope.echo = function () {
     var echoString = "Hello from native code!";
@@ -34,15 +34,37 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
   }
 
   $scope.imageExchange = function () {
+      var imgPath = "img/Lenna.png";
       var xhr = new XMLHttpRequest();
-      xhr.open( "GET", "img/Lenna.png", true );
+      xhr.open( "GET", imgPath, true );
       xhr.responseType = "arraybuffer";
 
       xhr.onload = function( e ) {
         var arrayBufferView = new Uint8Array( this.response );
         var blob = new Blob( [ arrayBufferView ], { type: "image/png" } );
+        writeFileToFileSystem(blob, 'lenna.png');
       }
       xhr.send();
+  }
+
+  function writeFileToFileSystem(blob, fileName) {
+    $cordovaFile.createFile(fileName, true).then(function(fileEntry) {
+      fileEntry.createWriter(function(fileWriter) {
+      
+      fileWriter.onwriteend = function(e) {
+        alert('Writing image completed.');
+        // TODO send message to native code with fileName
+      };
+
+      fileWriter.onerror = function(e) {
+        console.log('Writing image failed ' + e.toString());
+      };
+
+      fileWriter.write(blob);
+      
+      }, function (errCode) {
+        console.log('Erro has occured with code ' + errCode.toString()); });
+      });
   }
 
 });
