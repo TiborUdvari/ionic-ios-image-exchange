@@ -22,6 +22,15 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 })
 .controller('MainCtrl', function($scope) {
 
-  console.log('Main Controller was initiated');
+  $scope.echo = function () {
+    var echoString = "Hello from native code!";
+
+    cordova.exec( function(result){
+      alert(result);
+    }, 
+    function(err){
+      console.log('Error getting message from native code ' + err.toString());
+    }, "ImageExchange", "echo", [echoString]);
+  }
 
 });
