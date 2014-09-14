@@ -33,4 +33,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }, "ImageExchange", "echo", [echoString]);
   }
 
+  $scope.imageExchange = function () {
+      var xhr = new XMLHttpRequest();
+      xhr.open( "GET", "img/Lenna.png", true );
+      xhr.responseType = "arraybuffer";
+
+      xhr.onload = function( e ) {
+        var arrayBufferView = new Uint8Array( this.response );
+        var blob = new Blob( [ arrayBufferView ], { type: "image/png" } );
+      }
+      xhr.send();
+  }
+
 });
