@@ -7,6 +7,7 @@
 //
 
 #import <Cordova/CDV.h>
+#import <opencv2/opencv.hpp>
 
 @interface ImageExchange : CDVPlugin
 
