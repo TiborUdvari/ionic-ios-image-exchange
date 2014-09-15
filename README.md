@@ -35,9 +35,4 @@ will fail at writing the file if there is one that already exists.
 
 ROADMAP
 -------
-* Image treatement with Objective C code for illustration pourpouses * Override image if already exists 
-
-
-
-
-
+* Image treatement with Objective C code for illustration pourpouses  

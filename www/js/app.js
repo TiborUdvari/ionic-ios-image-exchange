@@ -42,12 +42,22 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       xhr.onload = function( e ) {
         var arrayBufferView = new Uint8Array( this.response );
         var blob = new Blob( [ arrayBufferView ], { type: "image/png" } );
-        writeFileToFileSystem(blob, 'lenna.png');
+        
+        var fileName = 'lenna.png';
+        $cordovaFile.checkFile(fileName).then(function(result) {
+          $cordovaFile.removeFile(fileName).then(function(result){
+            writeFileToFileSystem(blob, fileName);
+          });
+        }, function(err) {
+          console.log('Error checking file ' + err.toString());
+          writeFileToFileSystem(blob, fileName);
+        });
       }
       xhr.send();
   }
 
   function writeFileToFileSystem(blob, fileName) {
+
     var fn = fileName;
     $cordovaFile.createFile(fileName, true).then(function(fileEntry) {
       fileEntry.createWriter(function(fileWriter) {
