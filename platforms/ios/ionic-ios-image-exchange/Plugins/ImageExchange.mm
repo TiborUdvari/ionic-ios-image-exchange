@@ -64,8 +64,6 @@
     {
         if ([documentsSubpath.lastPathComponent isEqual:imageName])
         {
-            NSLog(@"The document subpath is %@", documentsSubpath);
-            NSLog(@"The document directory is %@ ", documentsDirectory);
             NSString *filePath = [NSString stringWithFormat:@"%@/%@", documentsDirectory, documentsSubpath];
             image = [UIImage imageWithContentsOfFile:filePath];
             break;
@@ -85,7 +83,6 @@ void colorReduce(cv::Mat &image, int div=64) {
         (*it)[2]= (*it)[2]/div*div + div/2;
     }
 }
-
 
 - (cv::Mat)cvMatFromUIImage:(UIImage *)image
 {

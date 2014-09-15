@@ -32,7 +32,7 @@
     </div>
     
     <ion-content padding="true">
-      <img ng-src="img/Lenna.png" class="center" />
+      <img ng-src="img/Lenna.png" class="center" id="lenna"/>
 
       <button ng-click="echo()" class="button button-block button-light">
         Echo / Test comm
@@ -40,6 +40,10 @@
 
       <button ng-click="imageExchange()" class="button button-block button-calm">
         Treat image
+      </button>
+
+      <button ng-click="reset()" class="button button-block button-calm">
+        Reset
       </button>
 
     </ion-content>

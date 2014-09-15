@@ -67,6 +67,30 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
         
         cordova.exec( function(result){
           alert(result);
+
+            console.log('Succesfully read file path');
+            console.log('The result is ' + result.toString());
+            var resImageName = result;
+            window.requestFileSystem(LocalFileSystem.PERSISTENT, 1024 * 1024, function (fs) {
+                
+              fs.root.getFile(resImageName, {}, function(fileEntry) {
+                  fileEntry.file(function(file) {
+                     var reader = new FileReader();
+                     reader.onloadend = function(e) {
+                        console.log('The result is ' + this.result.toString());
+                        var arrayBufferView = new Uint8Array( this.result );
+                        var blob = new Blob( [ arrayBufferView ], { type: "image/png" } );
+                        var urlCreator = window.URL || window.webkitURL;
+                        var imageUrl = urlCreator.createObjectURL( blob );
+                        var img = document.querySelector( "#lenna" );
+                        img.src = imageUrl;
+                     };
+
+                     reader.readAsArrayBuffer(file);
+                  }, errorHandler);
+
+                }, errorHandler);
+            });
         }, 
         function(err){
           alert('Error creating UIImage');
@@ -84,5 +108,37 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
         console.log('Erro has occured with code ' + errCode.toString()); });
       });
   }
+
+  $scope.reset = function() {
+    var img = document.querySelector( "#lenna" );
+    img.src = 'img/Lenna.png';
+  }
+
+function errorHandler(e) {
+  var msg = '';
+
+  switch (e.code) {
+    case FileError.QUOTA_EXCEEDED_ERR:
+      msg = 'QUOTA_EXCEEDED_ERR';
+      break;
+    case FileError.NOT_FOUND_ERR:
+      msg = 'NOT_FOUND_ERR';
+      break;
+    case FileError.SECURITY_ERR:
+      msg = 'SECURITY_ERR';
+      break;
+    case FileError.INVALID_MODIFICATION_ERR:
+      msg = 'INVALID_MODIFICATION_ERR';
+      break;
+    case FileError.INVALID_STATE_ERR:
+      msg = 'INVALID_STATE_ERR';
+      break;
+    default:
+      msg = 'Unknown Error';
+      break;
+  };
+
+  console.log('Error: ' + msg);
+}
 
 });

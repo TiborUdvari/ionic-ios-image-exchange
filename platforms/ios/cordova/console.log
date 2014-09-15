@@ -198,3 +198,193 @@
 2014-09-15 11:02:02.968 ionic-ios-image-exchange[20840:70b] The document subpath is lenna.png
 2014-09-15 11:02:02.969 ionic-ios-image-exchange[20840:70b] The document directory is /Users/admin/Library/Application Support/iPhone Simulator/7.1/Applications/B836C6A8-486C-4DA2-81A6-7B4AAB0DC3F4/Documents 
 2014-09-15 11:02:04.820 ionic-ios-image-exchange[20840:70b] THREAD WARNING: ['ImageExchange'] took '1884.665771' ms. Plugin should use a background thread.
+2014-09-15 11:47:20.678 ionic-ios-image-exchange[48911:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-15 11:47:20.724 ionic-ios-image-exchange[48911:70b] Unlimited access to network resources
+2014-09-15 11:47:20.741 ionic-ios-image-exchange[48911:70b] [CDVTimer][keyboard] 0.081003ms
+2014-09-15 11:47:20.745 ionic-ios-image-exchange[48911:70b] [CDVTimer][file] 3.307998ms
+2014-09-15 11:47:20.745 ionic-ios-image-exchange[48911:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-09-15 11:47:20.746 ionic-ios-image-exchange[48911:70b] [CDVTimer][statusbar] 0.440001ms
+2014-09-15 11:47:20.746 ionic-ios-image-exchange[48911:70b] [CDVTimer][TotalPluginStartup] 5.297005ms
+2014-09-15 11:47:21.142 ionic-ios-image-exchange[48911:70b] Resetting plugins due to page load.
+2014-09-15 11:47:21.546 ionic-ios-image-exchange[48911:70b] Finished load of: file:///Users/admin/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/B836C6A8-486C-4DA2-81A6-7B4AAB0DC3F4/ionic-ios-image-exchange.app/www/index.html
+2014-09-15 11:47:21.632 ionic-ios-image-exchange[48911:70b] THREAD WARNING: ['Keyboard'] took '12.101807' ms. Plugin should use a background thread.
+2014-09-15 11:49:01.762 ionic-ios-image-exchange[50416:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-15 11:49:01.797 ionic-ios-image-exchange[50416:70b] Unlimited access to network resources
+2014-09-15 11:49:01.836 ionic-ios-image-exchange[50416:70b] [CDVTimer][keyboard] 0.079036ms
+2014-09-15 11:49:01.838 ionic-ios-image-exchange[50416:70b] [CDVTimer][file] 1.520038ms
+2014-09-15 11:49:01.839 ionic-ios-image-exchange[50416:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-09-15 11:49:01.839 ionic-ios-image-exchange[50416:70b] [CDVTimer][statusbar] 0.407994ms
+2014-09-15 11:49:01.840 ionic-ios-image-exchange[50416:70b] [CDVTimer][TotalPluginStartup] 3.428996ms
+2014-09-15 11:49:02.799 ionic-ios-image-exchange[50416:70b] Resetting plugins due to page load.
+2014-09-15 11:49:03.519 ionic-ios-image-exchange[50416:70b] Finished load of: file:///Users/admin/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/B836C6A8-486C-4DA2-81A6-7B4AAB0DC3F4/ionic-ios-image-exchange.app/www/index.html
+2014-09-15 11:49:03.569 ionic-ios-image-exchange[50416:70b] THREAD WARNING: ['Device'] took '26.801758' ms. Plugin should use a background thread.
+2014-09-15 12:50:01.274 ionic-ios-image-exchange[50416:70b] THREAD WARNING: ['File'] took '57.201904' ms. Plugin should use a background thread.
+2014-09-15 12:50:01.327 ionic-ios-image-exchange[50416:70b] THREAD WARNING: ['File'] took '34.116943' ms. Plugin should use a background thread.
+2014-09-15 12:50:01.368 ionic-ios-image-exchange[50416:70b] THREAD WARNING: ['File'] took '34.908936' ms. Plugin should use a background thread.
+2014-09-15 12:50:03.532 ionic-ios-image-exchange[50416:70b] THREAD WARNING: ['File'] took '2139.500244' ms. Plugin should use a background thread.
+2014-09-15 12:50:05.887 ionic-ios-image-exchange[50416:70b] THREAD WARNING: ['ImageExchange'] took '2349.917969' ms. Plugin should use a background thread.
+2014-09-15 12:50:34.376 ionic-ios-image-exchange[50416:70b] THREAD WARNING: ['File'] took '1509.566162' ms. Plugin should use a background thread.
+2014-09-15 12:50:38.786 ionic-ios-image-exchange[50416:70b] THREAD WARNING: ['ImageExchange'] took '4405.109863' ms. Plugin should use a background thread.
+2014-09-15 12:52:42.936 ionic-ios-image-exchange[53804:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-15 12:52:43.240 ionic-ios-image-exchange[53804:70b] Unlimited access to network resources
+2014-09-15 12:52:44.558 ionic-ios-image-exchange[53804:70b] [CDVTimer][keyboard] 0.100970ms
+2014-09-15 12:52:44.561 ionic-ios-image-exchange[53804:70b] [CDVTimer][file] 1.753986ms
+2014-09-15 12:52:44.561 ionic-ios-image-exchange[53804:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-09-15 12:52:44.561 ionic-ios-image-exchange[53804:70b] [CDVTimer][statusbar] 0.397980ms
+2014-09-15 12:52:44.562 ionic-ios-image-exchange[53804:70b] [CDVTimer][TotalPluginStartup] 3.611982ms
+2014-09-15 12:52:46.985 ionic-ios-image-exchange[53804:70b] Resetting plugins due to page load.
+2014-09-15 12:52:48.682 ionic-ios-image-exchange[53804:70b] Finished load of: file:///Users/admin/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/B836C6A8-486C-4DA2-81A6-7B4AAB0DC3F4/ionic-ios-image-exchange.app/www/index.html
+2014-09-15 12:52:51.595 ionic-ios-image-exchange[53804:70b] THREAD WARNING: ['File'] took '1661.076660' ms. Plugin should use a background thread.
+2014-09-15 12:52:53.976 ionic-ios-image-exchange[53804:70b] THREAD WARNING: ['ImageExchange'] took '2376.583008' ms. Plugin should use a background thread.
+2014-09-15 12:53:50.639 ionic-ios-image-exchange[53804:70b] THREAD WARNING: ['File'] took '32.344971' ms. Plugin should use a background thread.
+2014-09-15 12:53:50.700 ionic-ios-image-exchange[53804:70b] THREAD WARNING: ['File'] took '21.177979' ms. Plugin should use a background thread.
+2014-09-15 12:53:52.720 ionic-ios-image-exchange[53804:70b] THREAD WARNING: ['File'] took '2001.528076' ms. Plugin should use a background thread.
+2014-09-15 12:53:54.697 ionic-ios-image-exchange[53804:70b] THREAD WARNING: ['ImageExchange'] took '1972.082031' ms. Plugin should use a background thread.
+2014-09-15 12:56:21.104 ionic-ios-image-exchange[56788:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-15 12:56:21.134 ionic-ios-image-exchange[56788:70b] Unlimited access to network resources
+2014-09-15 12:56:21.170 ionic-ios-image-exchange[56788:70b] [CDVTimer][keyboard] 0.079036ms
+2014-09-15 12:56:21.175 ionic-ios-image-exchange[56788:70b] [CDVTimer][file] 4.159987ms
+2014-09-15 12:56:21.175 ionic-ios-image-exchange[56788:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-09-15 12:56:21.176 ionic-ios-image-exchange[56788:70b] [CDVTimer][statusbar] 0.464976ms
+2014-09-15 12:56:21.176 ionic-ios-image-exchange[56788:70b] [CDVTimer][TotalPluginStartup] 6.187022ms
+2014-09-15 12:56:22.006 ionic-ios-image-exchange[56788:70b] Resetting plugins due to page load.
+2014-09-15 12:56:22.518 ionic-ios-image-exchange[56788:70b] Finished load of: file:///Users/admin/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/B836C6A8-486C-4DA2-81A6-7B4AAB0DC3F4/ionic-ios-image-exchange.app/www/index.html
+2014-09-15 12:56:52.947 ionic-ios-image-exchange[56788:70b] THREAD WARNING: ['File'] took '60.398926' ms. Plugin should use a background thread.
+2014-09-15 12:56:52.982 ionic-ios-image-exchange[56788:70b] THREAD WARNING: ['File'] took '24.281982' ms. Plugin should use a background thread.
+2014-09-15 12:56:54.816 ionic-ios-image-exchange[56788:70b] THREAD WARNING: ['File'] took '1798.630127' ms. Plugin should use a background thread.
+2014-09-15 12:56:56.334 ionic-ios-image-exchange[56788:70b] THREAD WARNING: ['ImageExchange'] took '1515.313965' ms. Plugin should use a background thread.
+2014-09-15 12:56:56.339 ionic-ios-image-exchange[56788:70b] readFile is now deprecated as of v0.1.4-alpha, use readAsText instead
+2014-09-15 12:56:56.349 ionic-ios-image-exchange[56788:70b] Succesfully read file path
+2014-09-15 12:58:25.662 ionic-ios-image-exchange[56788:70b] THREAD WARNING: ['File'] took '27.615967' ms. Plugin should use a background thread.
+2014-09-15 12:58:25.700 ionic-ios-image-exchange[56788:70b] THREAD WARNING: ['File'] took '22.354248' ms. Plugin should use a background thread.
+2014-09-15 12:58:27.342 ionic-ios-image-exchange[56788:70b] THREAD WARNING: ['File'] took '1625.604980' ms. Plugin should use a background thread.
+2014-09-15 12:58:29.646 ionic-ios-image-exchange[56788:70b] THREAD WARNING: ['ImageExchange'] took '2300.070068' ms. Plugin should use a background thread.
+2014-09-15 12:58:29.685 ionic-ios-image-exchange[56788:70b] readFile is now deprecated as of v0.1.4-alpha, use readAsText instead
+2014-09-15 12:58:29.692 ionic-ios-image-exchange[56788:70b] Succesfully read file path
+2014-09-15 13:00:14.678 ionic-ios-image-exchange[56788:70b] THREAD WARNING: ['File'] took '1880.865967' ms. Plugin should use a background thread.
+2014-09-15 13:00:18.745 ionic-ios-image-exchange[56788:70b] THREAD WARNING: ['ImageExchange'] took '4062.149902' ms. Plugin should use a background thread.
+2014-09-15 13:00:18.749 ionic-ios-image-exchange[56788:70b] readFile is now deprecated as of v0.1.4-alpha, use readAsText instead
+2014-09-15 13:00:18.758 ionic-ios-image-exchange[56788:70b] Succesfully read file path
+2014-09-15 13:03:58.637 ionic-ios-image-exchange[56788:70b] THREAD WARNING: ['File'] took '53.649170' ms. Plugin should use a background thread.
+2014-09-15 13:04:00.672 ionic-ios-image-exchange[56788:70b] THREAD WARNING: ['File'] took '2010.802002' ms. Plugin should use a background thread.
+2014-09-15 13:04:02.637 ionic-ios-image-exchange[56788:70b] THREAD WARNING: ['ImageExchange'] took '1962.293945' ms. Plugin should use a background thread.
+2014-09-15 13:04:02.641 ionic-ios-image-exchange[56788:70b] readFile is now deprecated as of v0.1.4-alpha, use readAsText instead
+2014-09-15 13:04:02.647 ionic-ios-image-exchange[56788:70b] Succesfully read file path
+2014-09-15 13:26:01.553 ionic-ios-image-exchange[65236:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-15 13:26:01.571 ionic-ios-image-exchange[65236:70b] Unlimited access to network resources
+2014-09-15 13:26:01.620 ionic-ios-image-exchange[65236:70b] [CDVTimer][keyboard] 0.079989ms
+2014-09-15 13:26:01.622 ionic-ios-image-exchange[65236:70b] [CDVTimer][file] 1.551032ms
+2014-09-15 13:26:01.622 ionic-ios-image-exchange[65236:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-09-15 13:26:01.623 ionic-ios-image-exchange[65236:70b] [CDVTimer][statusbar] 0.423014ms
+2014-09-15 13:26:01.623 ionic-ios-image-exchange[65236:70b] [CDVTimer][TotalPluginStartup] 3.503978ms
+2014-09-15 13:26:02.563 ionic-ios-image-exchange[65236:70b] Resetting plugins due to page load.
+2014-09-15 13:26:02.892 ionic-ios-image-exchange[65236:70b] Finished load of: file:///Users/admin/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/B836C6A8-486C-4DA2-81A6-7B4AAB0DC3F4/ionic-ios-image-exchange.app/www/index.html
+2014-09-15 13:32:06.009 ionic-ios-image-exchange[69730:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-15 13:32:06.020 ionic-ios-image-exchange[69730:70b] Unlimited access to network resources
+2014-09-15 13:32:06.118 ionic-ios-image-exchange[69730:70b] [CDVTimer][keyboard] 0.081003ms
+2014-09-15 13:32:06.135 ionic-ios-image-exchange[69730:70b] [CDVTimer][file] 16.110003ms
+2014-09-15 13:32:06.136 ionic-ios-image-exchange[69730:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-09-15 13:32:06.137 ionic-ios-image-exchange[69730:70b] [CDVTimer][statusbar] 1.042962ms
+2014-09-15 13:32:06.138 ionic-ios-image-exchange[69730:70b] [CDVTimer][TotalPluginStartup] 19.874990ms
+2014-09-15 13:32:08.301 ionic-ios-image-exchange[69730:70b] Resetting plugins due to page load.
+2014-09-15 13:32:08.688 ionic-ios-image-exchange[69730:70b] Finished load of: file:///Users/admin/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/B836C6A8-486C-4DA2-81A6-7B4AAB0DC3F4/ionic-ios-image-exchange.app/www/index.html
+2014-09-15 13:32:52.398 ionic-ios-image-exchange[69730:70b] THREAD WARNING: ['File'] took '14.618896' ms. Plugin should use a background thread.
+2014-09-15 13:32:52.439 ionic-ios-image-exchange[69730:70b] THREAD WARNING: ['File'] took '31.392822' ms. Plugin should use a background thread.
+2014-09-15 13:32:52.491 ionic-ios-image-exchange[69730:70b] THREAD WARNING: ['File'] took '42.215088' ms. Plugin should use a background thread.
+2014-09-15 13:32:54.834 ionic-ios-image-exchange[69730:70b] THREAD WARNING: ['File'] took '2317.089844' ms. Plugin should use a background thread.
+2014-09-15 13:32:56.560 ionic-ios-image-exchange[69730:70b] THREAD WARNING: ['ImageExchange'] took '1722.438965' ms. Plugin should use a background thread.
+2014-09-15 13:32:56.564 ionic-ios-image-exchange[69730:70b] readFile is now deprecated as of v0.1.4-alpha, use readAsText instead
+2014-09-15 13:32:56.577 ionic-ios-image-exchange[69730:70b] Succesfully read file path
+2014-09-15 13:34:42.595 ionic-ios-image-exchange[72699:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-15 13:34:42.622 ionic-ios-image-exchange[72699:70b] Unlimited access to network resources
+2014-09-15 13:34:42.667 ionic-ios-image-exchange[72699:70b] [CDVTimer][keyboard] 0.083983ms
+2014-09-15 13:34:42.669 ionic-ios-image-exchange[72699:70b] [CDVTimer][file] 1.459002ms
+2014-09-15 13:34:42.669 ionic-ios-image-exchange[72699:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-09-15 13:34:42.670 ionic-ios-image-exchange[72699:70b] [CDVTimer][statusbar] 0.424981ms
+2014-09-15 13:34:42.670 ionic-ios-image-exchange[72699:70b] [CDVTimer][TotalPluginStartup] 3.324986ms
+2014-09-15 13:34:43.436 ionic-ios-image-exchange[72699:70b] Resetting plugins due to page load.
+2014-09-15 13:34:43.784 ionic-ios-image-exchange[72699:70b] Finished load of: file:///Users/admin/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/B836C6A8-486C-4DA2-81A6-7B4AAB0DC3F4/ionic-ios-image-exchange.app/www/index.html
+2014-09-15 13:34:58.190 ionic-ios-image-exchange[72699:70b] THREAD WARNING: ['File'] took '45.789062' ms. Plugin should use a background thread.
+2014-09-15 13:34:59.991 ionic-ios-image-exchange[72699:70b] THREAD WARNING: ['File'] took '1763.472168' ms. Plugin should use a background thread.
+2014-09-15 13:35:02.242 ionic-ios-image-exchange[72699:70b] THREAD WARNING: ['ImageExchange'] took '2246.454834' ms. Plugin should use a background thread.
+2014-09-15 13:35:02.245 ionic-ios-image-exchange[72699:70b] readFile is now deprecated as of v0.1.4-alpha, use readAsText instead
+2014-09-15 13:35:02.253 ionic-ios-image-exchange[72699:70b] Succesfully read file path
+2014-09-15 13:37:07.741 ionic-ios-image-exchange[72699:70b] THREAD WARNING: ['File'] took '197.696777' ms. Plugin should use a background thread.
+2014-09-15 13:37:07.816 ionic-ios-image-exchange[72699:70b] THREAD WARNING: ['File'] took '63.176270' ms. Plugin should use a background thread.
+2014-09-15 13:37:09.549 ionic-ios-image-exchange[72699:70b] THREAD WARNING: ['File'] took '1710.379150' ms. Plugin should use a background thread.
+2014-09-15 13:37:11.525 ionic-ios-image-exchange[72699:70b] THREAD WARNING: ['ImageExchange'] took '1973.698975' ms. Plugin should use a background thread.
+2014-09-15 13:37:11.530 ionic-ios-image-exchange[72699:70b] readFile is now deprecated as of v0.1.4-alpha, use readAsText instead
+2014-09-15 13:37:11.537 ionic-ios-image-exchange[72699:70b] Succesfully read file path
+2014-09-15 13:37:27.104 ionic-ios-image-exchange[75670:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-15 13:37:27.160 ionic-ios-image-exchange[75670:70b] Unlimited access to network resources
+2014-09-15 13:37:27.756 ionic-ios-image-exchange[75670:70b] [CDVTimer][keyboard] 0.122964ms
+2014-09-15 13:37:27.823 ionic-ios-image-exchange[75670:70b] [CDVTimer][file] 66.259980ms
+2014-09-15 13:37:27.824 ionic-ios-image-exchange[75670:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-09-15 13:37:27.825 ionic-ios-image-exchange[75670:70b] [CDVTimer][statusbar] 0.858009ms
+2014-09-15 13:37:27.826 ionic-ios-image-exchange[75670:70b] [CDVTimer][TotalPluginStartup] 70.098996ms
+2014-09-15 13:37:29.823 ionic-ios-image-exchange[75670:70b] Resetting plugins due to page load.
+2014-09-15 13:37:30.167 ionic-ios-image-exchange[75670:70b] Finished load of: file:///Users/admin/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/B836C6A8-486C-4DA2-81A6-7B4AAB0DC3F4/ionic-ios-image-exchange.app/www/index.html
+2014-09-15 13:37:30.224 ionic-ios-image-exchange[75670:70b] THREAD WARNING: ['File'] took '11.156006' ms. Plugin should use a background thread.
+2014-09-15 13:37:31.427 ionic-ios-image-exchange[75670:70b] THREAD WARNING: ['File'] took '15.114014' ms. Plugin should use a background thread.
+2014-09-15 13:37:31.476 ionic-ios-image-exchange[75670:70b] THREAD WARNING: ['File'] took '44.836182' ms. Plugin should use a background thread.
+2014-09-15 13:37:33.326 ionic-ios-image-exchange[75670:70b] THREAD WARNING: ['File'] took '1831.116943' ms. Plugin should use a background thread.
+2014-09-15 13:37:34.811 ionic-ios-image-exchange[75670:70b] THREAD WARNING: ['ImageExchange'] took '1479.190186' ms. Plugin should use a background thread.
+2014-09-15 13:37:34.816 ionic-ios-image-exchange[75670:70b] Succesfully read file path
+2014-09-15 13:37:34.817 ionic-ios-image-exchange[75670:70b] The result is lenna.png
+2014-09-15 13:37:34.820 ionic-ios-image-exchange[75670:70b] ... FileEntry intro ... 
+2014-09-15 13:41:38.146 ionic-ios-image-exchange[78653:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-15 13:41:38.153 ionic-ios-image-exchange[78653:70b] Unlimited access to network resources
+2014-09-15 13:41:38.197 ionic-ios-image-exchange[78653:70b] [CDVTimer][keyboard] 0.080049ms
+2014-09-15 13:41:38.199 ionic-ios-image-exchange[78653:70b] [CDVTimer][file] 1.509011ms
+2014-09-15 13:41:38.199 ionic-ios-image-exchange[78653:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-09-15 13:41:38.199 ionic-ios-image-exchange[78653:70b] [CDVTimer][statusbar] 0.426948ms
+2014-09-15 13:41:38.200 ionic-ios-image-exchange[78653:70b] [CDVTimer][TotalPluginStartup] 3.445983ms
+2014-09-15 13:41:39.211 ionic-ios-image-exchange[78653:70b] Resetting plugins due to page load.
+2014-09-15 13:41:39.524 ionic-ios-image-exchange[78653:70b] Finished load of: file:///Users/admin/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/B836C6A8-486C-4DA2-81A6-7B4AAB0DC3F4/ionic-ios-image-exchange.app/www/index.html
+2014-09-15 13:44:00.799 ionic-ios-image-exchange[78653:70b] THREAD WARNING: ['File'] took '23.981934' ms. Plugin should use a background thread.
+2014-09-15 13:44:02.423 ionic-ios-image-exchange[78653:70b] THREAD WARNING: ['File'] took '1586.395996' ms. Plugin should use a background thread.
+2014-09-15 13:44:03.898 ionic-ios-image-exchange[78653:70b] THREAD WARNING: ['ImageExchange'] took '1469.927002' ms. Plugin should use a background thread.
+2014-09-15 13:44:03.901 ionic-ios-image-exchange[78653:70b] Succesfully read file path
+2014-09-15 13:44:03.902 ionic-ios-image-exchange[78653:70b] The result is lenna.png
+2014-09-15 13:44:03.904 ionic-ios-image-exchange[78653:70b] ... FileEntry intro ... 
+2014-09-15 13:51:02.237 ionic-ios-image-exchange[81673:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-15 13:51:02.326 ionic-ios-image-exchange[81673:70b] Unlimited access to network resources
+2014-09-15 13:51:02.363 ionic-ios-image-exchange[81673:70b] [CDVTimer][keyboard] 0.090003ms
+2014-09-15 13:51:02.365 ionic-ios-image-exchange[81673:70b] [CDVTimer][file] 2.191007ms
+2014-09-15 13:51:02.366 ionic-ios-image-exchange[81673:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-09-15 13:51:02.366 ionic-ios-image-exchange[81673:70b] [CDVTimer][statusbar] 0.440001ms
+2014-09-15 13:51:02.367 ionic-ios-image-exchange[81673:70b] [CDVTimer][TotalPluginStartup] 4.295051ms
+2014-09-15 13:51:03.417 ionic-ios-image-exchange[81673:70b] Resetting plugins due to page load.
+2014-09-15 13:51:03.715 ionic-ios-image-exchange[81673:70b] Finished load of: file:///Users/admin/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/B836C6A8-486C-4DA2-81A6-7B4AAB0DC3F4/ionic-ios-image-exchange.app/www/index.html
+2014-09-15 13:51:17.527 ionic-ios-image-exchange[81673:70b] THREAD WARNING: ['File'] took '18.998047' ms. Plugin should use a background thread.
+2014-09-15 13:51:19.262 ionic-ios-image-exchange[81673:70b] THREAD WARNING: ['File'] took '1690.463135' ms. Plugin should use a background thread.
+2014-09-15 13:51:20.923 ionic-ios-image-exchange[81673:70b] THREAD WARNING: ['ImageExchange'] took '1657.140869' ms. Plugin should use a background thread.
+2014-09-15 13:51:20.927 ionic-ios-image-exchange[81673:70b] Succesfully read file path
+2014-09-15 13:51:20.927 ionic-ios-image-exchange[81673:70b] The result is lenna.png
+2014-09-15 13:51:20.936 ionic-ios-image-exchange[81673:70b] ... FileEntry intro ... 
+2014-09-15 13:51:20.940 ionic-ios-image-exchange[81673:70b] The result is [object ArrayBuffer]
+2014-09-15 13:51:30.789 ionic-ios-image-exchange[81673:70b] THREAD WARNING: ['File'] took '1581.822998' ms. Plugin should use a background thread.
+2014-09-15 13:51:32.053 ionic-ios-image-exchange[81673:70b] THREAD WARNING: ['ImageExchange'] took '1261.218262' ms. Plugin should use a background thread.
+2014-09-15 13:51:32.057 ionic-ios-image-exchange[81673:70b] Succesfully read file path
+2014-09-15 13:51:32.057 ionic-ios-image-exchange[81673:70b] The result is lenna.png
+2014-09-15 13:51:32.062 ionic-ios-image-exchange[81673:70b] ... FileEntry intro ... 
+2014-09-15 13:51:32.065 ionic-ios-image-exchange[81673:70b] The result is [object ArrayBuffer]
+2014-09-15 13:57:24.109 ionic-ios-image-exchange[84694:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-15 13:57:24.117 ionic-ios-image-exchange[84694:70b] Unlimited access to network resources
+2014-09-15 13:57:24.168 ionic-ios-image-exchange[84694:70b] [CDVTimer][keyboard] 0.082016ms
+2014-09-15 13:57:24.171 ionic-ios-image-exchange[84694:70b] [CDVTimer][file] 2.209008ms
+2014-09-15 13:57:24.172 ionic-ios-image-exchange[84694:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-09-15 13:57:24.172 ionic-ios-image-exchange[84694:70b] [CDVTimer][statusbar] 0.568986ms
+2014-09-15 13:57:24.173 ionic-ios-image-exchange[84694:70b] [CDVTimer][TotalPluginStartup] 4.631042ms
+2014-09-15 13:57:25.620 ionic-ios-image-exchange[84694:70b] Resetting plugins due to page load.
+2014-09-15 13:57:25.869 ionic-ios-image-exchange[84694:70b] Finished load of: file:///Users/admin/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/B836C6A8-486C-4DA2-81A6-7B4AAB0DC3F4/ionic-ios-image-exchange.app/www/index.html
+2014-09-15 13:57:30.240 ionic-ios-image-exchange[84694:70b] THREAD WARNING: ['File'] took '1914.518066' ms. Plugin should use a background thread.
+2014-09-15 13:57:31.973 ionic-ios-image-exchange[84694:70b] THREAD WARNING: ['ImageExchange'] took '1728.700195' ms. Plugin should use a background thread.
+2014-09-15 13:57:31.977 ionic-ios-image-exchange[84694:70b] Succesfully read file path
+2014-09-15 13:57:31.978 ionic-ios-image-exchange[84694:70b] The result is lenna.png
+2014-09-15 13:57:31.984 ionic-ios-image-exchange[84694:70b] The result is [object ArrayBuffer]
+2014-09-15 13:57:36.263 ionic-ios-image-exchange[84694:70b] THREAD WARNING: ['File'] took '1564.394775' ms. Plugin should use a background thread.
+2014-09-15 13:57:37.447 ionic-ios-image-exchange[84694:70b] THREAD WARNING: ['ImageExchange'] took '1179.437988' ms. Plugin should use a background thread.
+2014-09-15 13:57:37.451 ionic-ios-image-exchange[84694:70b] Succesfully read file path
+2014-09-15 13:57:37.451 ionic-ios-image-exchange[84694:70b] The result is lenna.png
+2014-09-15 13:57:37.457 ionic-ios-image-exchange[84694:70b] The result is [object ArrayBuffer]
