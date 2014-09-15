@@ -8,12 +8,12 @@ How to run
 
 * Make sure you have *ionic* installed
 
-    npm install -g cordova ionic
+        npm install -g cordova ionic
 
 * To run on emulator
 
-    ionic build ios 
-    ionic emulate ios 
+        ionic build ios 
+        ionic emulate ios 
 
 or alternatively launch on a physical device with 
 
