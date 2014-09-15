@@ -48,12 +48,20 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
   }
 
   function writeFileToFileSystem(blob, fileName) {
+    var fn = fileName;
     $cordovaFile.createFile(fileName, true).then(function(fileEntry) {
       fileEntry.createWriter(function(fileWriter) {
       
       fileWriter.onwriteend = function(e) {
         alert('Writing image completed.');
-        // TODO send message to native code with fileName
+        
+        cordova.exec( function(result){
+          alert(result);
+        }, 
+        function(err){
+          alert('Error creating UIImage');
+        }, "ImageExchange", "treatImage", [fn]);
+
       };
 
       fileWriter.onerror = function(e) {
